@@ -43,7 +43,7 @@
 
 .dropdownMenu {
   position: absolute;
-  background-color: var(--primary);
+  background-color: rgba(68, 65, 65, 0.822);
   top: 90%;
   right: -20px;
   padding: 0;
