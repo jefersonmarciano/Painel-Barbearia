@@ -47,7 +47,7 @@ class UsersServices {
       }
       password = await hash(newPassword, 10);
 
-      await this.usersRepository.updatePassword(password, user_id);
+      await this.usersRepository.updatePassword(newPassword, user_id);
     }
     if (avatar_url) {
       const uploadImage = avatar_url?.buffer;
